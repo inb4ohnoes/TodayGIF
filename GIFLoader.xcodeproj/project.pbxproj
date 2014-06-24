@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33021D01959EBC500CF15B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D33021CF1959EBC500CF15B9 /* main.m */; };
+		D33021D31959EBC500CF15B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D33021D21959EBC500CF15B9 /* AppDelegate.m */; };
+		D33021D61959EBC500CF15B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33021D51959EBC500CF15B9 /* ViewController.m */; };
+		D33021D91959EBC500CF15B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33021D71959EBC500CF15B9 /* Main.storyboard */; };
+		D33021DB1959EBC500CF15B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33021DA1959EBC500CF15B9 /* Images.xcassets */; };
+		D33021E71959EBC500CF15B9 /* GIFLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D33021E61959EBC500CF15B9 /* GIFLoaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D33021E11959EBC500CF15B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33021C21959EBC500CF15B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33021C91959EBC500CF15B9;
+			remoteInfo = GIFLoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D33021CA1959EBC500CF15B9 /* GIFLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33021CE1959EBC500CF15B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33021CF1959EBC500CF15B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D33021D11959EBC500CF15B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D33021D21959EBC500CF15B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D33021D41959EBC500CF15B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D33021D51959EBC500CF15B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D33021D81959EBC500CF15B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D33021DA1959EBC500CF15B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D33021E01959EBC500CF15B9 /* GIFLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33021E51959EBC500CF15B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33021E61959EBC500CF15B9 /* GIFLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFLoaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D33021C71959EBC500CF15B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33021DD1959EBC500CF15B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D33021C11959EBC500CF15B9 = {
+			isa = PBXGroup;
+			children = (
+				D33021CC1959EBC500CF15B9 /* GIFLoader */,
+				D33021E31959EBC500CF15B9 /* GIFLoaderTests */,
+				D33021CB1959EBC500CF15B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D33021CB1959EBC500CF15B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D33021CA1959EBC500CF15B9 /* GIFLoader.app */,
+				D33021E01959EBC500CF15B9 /* GIFLoaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33021CC1959EBC500CF15B9 /* GIFLoader */ = {
+			isa = PBXGroup;
+			children = (
+				D33021D11959EBC500CF15B9 /* AppDelegate.h */,
+				D33021D21959EBC500CF15B9 /* AppDelegate.m */,
+				D33021D41959EBC500CF15B9 /* ViewController.h */,
+				D33021D51959EBC500CF15B9 /* ViewController.m */,
+				D33021D71959EBC500CF15B9 /* Main.storyboard */,
+				D33021DA1959EBC500CF15B9 /* Images.xcassets */,
+				D33021CD1959EBC500CF15B9 /* Supporting Files */,
+			);
+			path = GIFLoader;
+			sourceTree = "<group>";
+		};
+		D33021CD1959EBC500CF15B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D33021CE1959EBC500CF15B9 /* Info.plist */,
+				D33021CF1959EBC500CF15B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D33021E31959EBC500CF15B9 /* GIFLoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D33021E61959EBC500CF15B9 /* GIFLoaderTests.m */,
+				D33021E41959EBC500CF15B9 /* Supporting Files */,
+			);
+			path = GIFLoaderTests;
+			sourceTree = "<group>";
+		};
+		D33021E41959EBC500CF15B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D33021E51959EBC500CF15B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D33021C91959EBC500CF15B9 /* GIFLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33021EA1959EBC500CF15B9 /* Build configuration list for PBXNativeTarget "GIFLoader" */;
+			buildPhases = (
+				D33021C61959EBC500CF15B9 /* Sources */,
+				D33021C71959EBC500CF15B9 /* Frameworks */,
+				D33021C81959EBC500CF15B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIFLoader;
+			productName = GIFLoader;
+			productReference = D33021CA1959EBC500CF15B9 /* GIFLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D33021DF1959EBC500CF15B9 /* GIFLoaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33021ED1959EBC500CF15B9 /* Build configuration list for PBXNativeTarget "GIFLoaderTests" */;
+			buildPhases = (
+				D33021DC1959EBC500CF15B9 /* Sources */,
+				D33021DD1959EBC500CF15B9 /* Frameworks */,
+				D33021DE1959EBC500CF15B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33021E21959EBC500CF15B9 /* PBXTargetDependency */,
+			);
+			name = GIFLoaderTests;
+			productName = GIFLoaderTests;
+			productReference = D33021E01959EBC500CF15B9 /* GIFLoaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33021C21959EBC500CF15B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Flame Co.";
+				TargetAttributes = {
+					D33021C91959EBC500CF15B9 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D33021DF1959EBC500CF15B9 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D33021C91959EBC500CF15B9;
+					};
+				};
+			};
+			buildConfigurationList = D33021C51959EBC500CF15B9 /* Build configuration list for PBXProject "GIFLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D33021C11959EBC500CF15B9;
+			productRefGroup = D33021CB1959EBC500CF15B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D33021C91959EBC500CF15B9 /* GIFLoader */,
+				D33021DF1959EBC500CF15B9 /* GIFLoaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D33021C81959EBC500CF15B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33021D91959EBC500CF15B9 /* Main.storyboard in Resources */,
+				D33021DB1959EBC500CF15B9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33021DE1959EBC500CF15B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D33021C61959EBC500CF15B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33021D61959EBC500CF15B9 /* ViewController.m in Sources */,
+				D33021D31959EBC500CF15B9 /* AppDelegate.m in Sources */,
+				D33021D01959EBC500CF15B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33021DC1959EBC500CF15B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33021E71959EBC500CF15B9 /* GIFLoaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D33021E21959EBC500CF15B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33021C91959EBC500CF15B9 /* GIFLoader */;
+			targetProxy = D33021E11959EBC500CF15B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D33021D71959EBC500CF15B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33021D81959EBC500CF15B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D33021E81959EBC500CF15B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D33021E91959EBC500CF15B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D33021EB1959EBC500CF15B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GIFLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D33021EC1959EBC500CF15B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GIFLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D33021EE1959EBC500CF15B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GIFLoader.app/GIFLoader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GIFLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		D33021EF1959EBC500CF15B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GIFLoader.app/GIFLoader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GIFLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33021C51959EBC500CF15B9 /* Build configuration list for PBXProject "GIFLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33021E81959EBC500CF15B9 /* Debug */,
+				D33021E91959EBC500CF15B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33021EA1959EBC500CF15B9 /* Build configuration list for PBXNativeTarget "GIFLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33021EB1959EBC500CF15B9 /* Debug */,
+				D33021EC1959EBC500CF15B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D33021ED1959EBC500CF15B9 /* Build configuration list for PBXNativeTarget "GIFLoaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33021EE1959EBC500CF15B9 /* Debug */,
+				D33021EF1959EBC500CF15B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D33021C21959EBC500CF15B9 /* Project object */;
+}
