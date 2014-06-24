@@ -13,6 +13,11 @@
 		D33021D91959EBC500CF15B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33021D71959EBC500CF15B9 /* Main.storyboard */; };
 		D33021DB1959EBC500CF15B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33021DA1959EBC500CF15B9 /* Images.xcassets */; };
 		D33021E71959EBC500CF15B9 /* GIFLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D33021E61959EBC500CF15B9 /* GIFLoaderTests.m */; };
+		D33021F71959EBE100CF15B9 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33021F61959EBE100CF15B9 /* NotificationCenter.framework */; };
+		D33021FD1959EBE100CF15B9 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33021FC1959EBE100CF15B9 /* TodayViewController.m */; };
+		D33021FF1959EBE100CF15B9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33021FE1959EBE100CF15B9 /* MainInterface.storyboard */; };
+		D33022021959EBE100CF15B9 /* co.Flame.GIFLoader.TodayGIF.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D33021F41959EBE100CF15B9 /* co.Flame.GIFLoader.TodayGIF.appex */; };
+		D330220B1959EC0F00CF15B9 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D330220A1959EC0F00CF15B9 /* UIImage+animatedGIF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +28,35 @@
 			remoteGlobalIDString = D33021C91959EBC500CF15B9;
 			remoteInfo = GIFLoader;
 		};
+		D33022001959EBE100CF15B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33021C21959EBC500CF15B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33021F31959EBE100CF15B9;
+			remoteInfo = TodayGIF;
+		};
+		D33022031959EBE100CF15B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33021C21959EBC500CF15B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33021F31959EBE100CF15B9;
+			remoteInfo = TodayGIF;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D33022081959EBE100CF15B9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D33022021959EBE100CF15B9 /* co.Flame.GIFLoader.TodayGIF.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D33021CA1959EBC500CF15B9 /* GIFLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +71,14 @@
 		D33021E01959EBC500CF15B9 /* GIFLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33021E51959EBC500CF15B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D33021E61959EBC500CF15B9 /* GIFLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFLoaderTests.m; sourceTree = "<group>"; };
+		D33021F41959EBE100CF15B9 /* co.Flame.GIFLoader.TodayGIF.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = co.Flame.GIFLoader.TodayGIF.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33021F61959EBE100CF15B9 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		D33021FA1959EBE100CF15B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33021FB1959EBE100CF15B9 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		D33021FC1959EBE100CF15B9 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		D33021FE1959EBE100CF15B9 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		D33022091959EC0F00CF15B9 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		D330220A1959EC0F00CF15B9 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +96,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D33021F11959EBE100CF15B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33021F71959EBE100CF15B9 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +112,8 @@
 			children = (
 				D33021CC1959EBC500CF15B9 /* GIFLoader */,
 				D33021E31959EBC500CF15B9 /* GIFLoaderTests */,
+				D33021F81959EBE100CF15B9 /* TodayGIF */,
+				D33021F51959EBE100CF15B9 /* Frameworks */,
 				D33021CB1959EBC500CF15B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +123,7 @@
 			children = (
 				D33021CA1959EBC500CF15B9 /* GIFLoader.app */,
 				D33021E01959EBC500CF15B9 /* GIFLoaderTests.xctest */,
+				D33021F41959EBE100CF15B9 /* co.Flame.GIFLoader.TodayGIF.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +168,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D33021F51959EBE100CF15B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D33021F61959EBE100CF15B9 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33021F81959EBE100CF15B9 /* TodayGIF */ = {
+			isa = PBXGroup;
+			children = (
+				D33021FB1959EBE100CF15B9 /* TodayViewController.h */,
+				D33021FC1959EBE100CF15B9 /* TodayViewController.m */,
+				D33021FE1959EBE100CF15B9 /* MainInterface.storyboard */,
+				D33022091959EC0F00CF15B9 /* UIImage+animatedGIF.h */,
+				D330220A1959EC0F00CF15B9 /* UIImage+animatedGIF.m */,
+				D33021F91959EBE100CF15B9 /* Supporting Files */,
+			);
+			path = TodayGIF;
+			sourceTree = "<group>";
+		};
+		D33021F91959EBE100CF15B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D33021FA1959EBE100CF15B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,10 +207,13 @@
 				D33021C61959EBC500CF15B9 /* Sources */,
 				D33021C71959EBC500CF15B9 /* Frameworks */,
 				D33021C81959EBC500CF15B9 /* Resources */,
+				D33022081959EBE100CF15B9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D33022011959EBE100CF15B9 /* PBXTargetDependency */,
+				D33022041959EBE100CF15B9 /* PBXTargetDependency */,
 			);
 			name = GIFLoader;
 			productName = GIFLoader;
@@ -154,6 +238,23 @@
 			productReference = D33021E01959EBC500CF15B9 /* GIFLoaderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D33021F31959EBE100CF15B9 /* TodayGIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33022051959EBE100CF15B9 /* Build configuration list for PBXNativeTarget "TodayGIF" */;
+			buildPhases = (
+				D33021F01959EBE100CF15B9 /* Sources */,
+				D33021F11959EBE100CF15B9 /* Frameworks */,
+				D33021F21959EBE100CF15B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayGIF;
+			productName = TodayGIF;
+			productReference = D33021F41959EBE100CF15B9 /* co.Flame.GIFLoader.TodayGIF.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +270,9 @@
 					D33021DF1959EBC500CF15B9 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = D33021C91959EBC500CF15B9;
+					};
+					D33021F31959EBE100CF15B9 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -187,6 +291,7 @@
 			targets = (
 				D33021C91959EBC500CF15B9 /* GIFLoader */,
 				D33021DF1959EBC500CF15B9 /* GIFLoaderTests */,
+				D33021F31959EBE100CF15B9 /* TodayGIF */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +310,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33021F21959EBE100CF15B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33021FF1959EBE100CF15B9 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +342,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D33021F01959EBE100CF15B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33021FD1959EBE100CF15B9 /* TodayViewController.m in Sources */,
+				D330220B1959EC0F00CF15B9 /* UIImage+animatedGIF.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +358,16 @@
 			isa = PBXTargetDependency;
 			target = D33021C91959EBC500CF15B9 /* GIFLoader */;
 			targetProxy = D33021E11959EBC500CF15B9 /* PBXContainerItemProxy */;
+		};
+		D33022011959EBE100CF15B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33021F31959EBE100CF15B9 /* TodayGIF */;
+			targetProxy = D33022001959EBE100CF15B9 /* PBXContainerItemProxy */;
+		};
+		D33022041959EBE100CF15B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33021F31959EBE100CF15B9 /* TodayGIF */;
+			targetProxy = D33022031959EBE100CF15B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -385,6 +517,32 @@
 			};
 			name = Release;
 		};
+		D33022061959EBE100CF15B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TodayGIF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "co.Flame.GIFLoader.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D33022071959EBE100CF15B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TodayGIF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "co.Flame.GIFLoader.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,6 +568,14 @@
 			buildConfigurations = (
 				D33021EE1959EBC500CF15B9 /* Debug */,
 				D33021EF1959EBC500CF15B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D33022051959EBE100CF15B9 /* Build configuration list for PBXNativeTarget "TodayGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33022061959EBE100CF15B9 /* Debug */,
+				D33022071959EBE100CF15B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
